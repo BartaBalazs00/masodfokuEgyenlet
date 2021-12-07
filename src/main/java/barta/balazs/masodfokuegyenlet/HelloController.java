@@ -21,7 +21,7 @@ public class HelloController {
                 double cNumber = Double.parseDouble(c.getText());
                 double diszkriminans = bNumber * bNumber - 4 * aNumber * cNumber;
                 if (diszkriminans < 0) {
-                    x1.setText("Az egyenletnek nincs valós gyöke");
+                    x1.setText("Nem oldható meg a valós számok halmazán");
                     x2.setText("");
                 }
                 if (diszkriminans == 0) {
